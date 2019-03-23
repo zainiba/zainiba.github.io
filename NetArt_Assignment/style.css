@@ -1,0 +1,51 @@
+body {
+  background-color: lightblue;
+}
+img{
+  width: 90px;
+ height: 90px;
+}
+div {
+  position :relative;
+  -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+  animation: mymove 5s infinite;
+  animation-direction: alternate;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  from {top: 100px;}
+  to {top: 700px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+  from {top: 100px;}
+  to {top: 700px;}
+}
+
+  .button {
+  display: inline-block;
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #f26933;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #d66a00}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
