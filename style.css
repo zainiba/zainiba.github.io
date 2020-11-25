@@ -1,0 +1,140 @@
+body {
+  background-color: #f6f4f4;
+}
+.navbar-brand {
+  font-weight: 700; font-size: 24px;
+ }
+
+ .navbar {
+    color: #FFFFFF;
+    background-color: #F9A03F;
+}
+
+.col-3 {
+  padding-top: 92px;
+}
+/* .col-3 .navbar {
+  color: #FFFFFF;
+  background-color: #264653;} */
+
+h4 {
+  font-family: 'Abel';
+}
+h3 {
+  font-family: 'Abel';
+}
+p {
+  font-family: 'Archivo Narrow';
+}
+.images {
+  float: left;
+  width:  700px;
+  height: 250px;
+  object-fit: cover;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-gap: 20px;
+  }
+.grid img {
+  max-width: 100%;
+}
+
+
+.circle {
+  position: relative;
+
+}
+
+
+.overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.circle:hover .overlay {
+  opacity: 1;
+}
+.circle:hover .text{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+
+.text {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  /* -moz-transform: translate(-50%, -50%); */
+  /* transform: translate(-50%, -50%); */
+  /* -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s; */
+
+}
+
+.text p{
+  color: #fff;
+  font-size: 0.8em;
+}
+.text h4{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
+
+@media (min-width: 576px) {
+    .carousel-item img {
+        width: auto !important;
+        height: 500px;
+        max-height: 600px;
+    }
+}
+.carousel-indicators, .carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.carousel-caption h4{
+  /* filter: invert(100%); */
+background-color:rgba(0,0,0,0.3);
+}
+
+/* lightbox */
+/* .vlightbox {
+display:-moz-inline-stack;
+display:none;
+zoom:1;
+*display:none;
+position:relative;
+vertical-align:top;
+margin:3px;
+width:160px;
+font-family:Trebuchet,Tahoma,Arial,sans-serif;
+font-size:11px;
+font-weight:normal;
+text-decoration:none;
+text-align:center;
+opacity:0.87;
+} */
