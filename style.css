@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Archivo&family=Open+Sans&display=swap');
+
 body {
   background-color: #f6f4f4;
 }
@@ -17,14 +19,12 @@ body {
   color: #FFFFFF;
   background-color: #264653;} */
 
-h4 {
-  font-family: 'Abel';
+h3, h4, h5 {
+  font-family: 'Archivo';
 }
-h3 {
-  font-family: 'Abel';
-}
+
 p {
-  font-family: 'Archivo Narrow';
+  font-family: 'Open Sans';
 }
 .images {
   float: left;
@@ -41,12 +41,14 @@ p {
   max-width: 100%;
 }
 
-
+.modal-header .close {
+    padding: 0;
+    margin: 0;
+}
 .circle {
   position: relative;
 
 }
-
 
 .overlay {
   background: rgba(0,0,0,0.7);
@@ -125,20 +127,3 @@ background-color:rgba(0,0,0,0.3);
   width: 60%;
   padding: 10px;
 }
-/* lightbox */
-/* .vlightbox {
-display:-moz-inline-stack;
-display:none;
-zoom:1;
-*display:none;
-position:relative;
-vertical-align:top;
-margin:3px;
-width:160px;
-font-family:Trebuchet,Tahoma,Arial,sans-serif;
-font-size:11px;
-font-weight:normal;
-text-decoration:none;
-text-align:center;
-opacity:0.87;
-} */

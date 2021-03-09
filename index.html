@@ -7,12 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
-  <link href='https://fonts.googleapis.com/css?family=Archivo+Narrow' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <!-- <link rel="stylesheet" type="text/css" href="lightbox.css"> -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link href='https://fonts.googleapis.com/css?family=Archivo+Narrow' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
 
   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -21,8 +26,6 @@
   <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#b91d47">
   <meta name="theme-color" content="#ffffff">
-
-  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
@@ -60,7 +63,7 @@
           <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse"> -->
-          <!-- <ul class="navbar-nav">
+    <!-- <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="map.html">Google Stalks Me With My Permission</a>
             </li>
@@ -104,112 +107,270 @@
         </nav>
       </div> -->
 
-        <h3 style="text-align:center; padding:5px">Welcome to my Perception of Life</h3>
-        <p style="text-align:center">I like lemons and I always need to tie my shoes.</p>
+    <h3 style="text-align:center; padding:5px">Welcome to my Perception of Life</h3>
+    <p style="text-align:center">I like lemons and I always need to tie my shoes.</p>
 
-        <div class="grid">
+    <div class="grid">
 
-          <div class="circle">
-            <a href="gmap.html"><img src="images/map.jpg" alt="Epoxy and wood map" class="images">
-              <div class="overlay">
-                <div class="text">
-                  <h4>Google Stalks Me With My Permission</h4>
-                  <p>Lasercut and Epoxy</p>
+      <!-- Project 1 -->
+      <div class="circle">
+        <img src="images/map.jpg" alt="Epoxy and wood map" class="images">
+        <a data-toggle="modal" href="#modal1">
+          <div class="overlay">
+            <div class="text">
+              <h4>Google Stalks Me With My Permission</h4>
+              <p>Lasercut and Epoxy</p>
+            </div>
+          </div>
+        </a>
+
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="modal1" role="dialog">
+        <div class="modal-dialog modal-xl">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <!-- <h5 class="modal-title">Google Stalks Me With My Permission <br> Lasercut and Epoxy on Birchwood <br> 2019 </h5> -->
+            </div>
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col">
+                    <img src="images/map.jpg" alt="Map" width="500px"><p></p>
+                    <img src="images/map2.jpg" alt="Map" width="500px"><p></p>
+                    <img src="images/map4.jpg" alt="Map" width="500px"><p></p>
+                  </div>
+                  <div class="col">
+                    <h5 style="text-align:right">Google Stalks Me With My Permission <br>Epoxy on Lasercut Birchwood <br> 2019 </h5>
+                    <p>In an attempt to quickly pass the terms and conditions prompt, a lot of us don't actually know or care to know how much privacy we are giving up. Google Maps tracks everything about our day down to the minute. It also allows
+                      users to share their itinerary for the day, how many times they have travelled to a different city, and their locations for the past years. It was shocking to see how much data they collected, most of the time I didn't even
+                      remember going to that place on that specific day. It is like having a stalker in the palm of my hands. In this piece, I gathered about 40 days worth of data and laser cut the data into an 18-in x 22-in plywood, filling my route
+                      with blue epoxy. I omitted the county and street names to preserve whatever privacy I could.</p>
+                      <img src="images/map6.PNG" alt="Map" width="500px">
+
+                  </div>
                 </div>
               </div>
-            </a>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
           </div>
+        </div>
+      </div>
 
-          <div class="circle">
-            <a href="https://zainiba.github.io/meditatewithMe/" target="_blank"> <img src="images/meditate.png" alt="Meditate With Me" class="images">
-              <div class="overlay">
-                <div class="text">
-                  <h4>Meditate With Me</h4>
-                  <p>Net Art</p>
-                </div>
+
+      <div class="circle">
+        <a href="https://zainiba.github.io/meditatewithMe/" target="_blank"> <img src="images/meditate.png" alt="Meditate With Me" class="images">
+          <div class="overlay">
+            <div class="text">
+              <h4>Meditate With Me</h4>
+              <p>Net Art</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="circle">
+        <a href="afterlife.html"><img src="images/spooky2.png" alt="Halloween" class="images">
+          <a data-toggle="modal" href="#modal2">
+            <div class="overlay">
+              <div class="text">
+                <h4>Café Afterlife</h4>
+                <p>Installation</p>
               </div>
-            </a>
-          </div>
+            </div>
+          </a>
+      </div>
 
-          <div class="circle">
-            <a href="afterlife.html"><img src="images/spooky2.png" alt="Halloween" class="images">
-              <div class="overlay">
-                <div class="text">
-                  <h4>Café Afterlife</h4>
-                  <p>Installation</p>
-                </div>
+      <!-- Modal -->
+      <div class="modal fade" id="modal2" role="dialog">
+        <div class="modal-dialog modal-xl">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <!-- <h5 class="modal-title">Google Stalks Me With My Permission <br> Lasercut and Epoxy on Birchwood <br> 2019 </h5> -->
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col">
+                <img src="images/spooky3.PNG" alt="Installation" width="500px"><p></p>
+                <img src="images/spooky2.png" alt="Installation" width="500px"><p></p>
+                <img src="images/spooky1.png" alt="Installation" width="500px"><p></p>
               </div>
-            </a>
-          </div>
+              <div class="col">
+                <h5 style="text-align:right">Café Afterlife<br>Installation<br>2019 </h5>
+                <p>This collaborative project fabricated by the CADRE Student Organization was presented at San Jose's Hammer Theatre cafe, located in downtown San Jose. This artwork was presented along with the other First Friday festivities in
+                  downtown. The installation was shown on Friday, Nov 1st, 2019 from 5pm - 11pm.
+                  <br><br>
+                  The project had a mix of practical effects, such as gaze screens and a smoke machine, mannequins, and other physical props inhabiting the space. Digital visuals and content were created through techniques of live-action filming,
+                  rotoscoping animation, 3D virtual environments, digital image and video editing, and physical electronics that which was projected around the space.</p>
+                  <img src="images/spooky4.jpg" alt="Installation" width="400px">
 
-          <div class="circle">
-            <a href="index.html"><img src="images/pop2.jpg" alt="Ice Cream" class="images">
-              <div class="overlay">
-                <div class="text">
-                  <h4>Melting</h4>
-                  <p>Wire with Solder</p>
-                </div>
               </div>
-            </a>
+            </div>
           </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-          <div class="circle">
-            <a href="https://zainiba.github.io/HoneyMart/" target="_blank"><img src="images/Honeyhome.png" alt="HoneyMart" class="images">
-              <div class="overlay">
-                <div class="text">
-                  <h4>HoneyMart</h4>
-                  <p>Net Art</p>
-                </div>
-              </div>
-            </a>
+
+  <div class="circle">
+    <a href="index.html"><img src="images/pop2.jpg" alt="Ice Cream" class="images">
+      <a data-toggle="modal" href="#modal3">
+      <div class="overlay">
+        <div class="text">
+          <h4>Melting</h4>
+          <p>Wire with Solder</p>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="modal3" role="dialog">
+    <div class="modal-dialog ">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h5 class="modal-title" style="text-align:right">Melting<br>Wire with solder<br> 2019 </h5>
+
+        </div>
+        <div class="modal-body">
+                <img src="images/pop2.jpg" alt="Pop" width="500px"><p></p>
+                <img src="images/pop1.jpg" alt="Pop" width="500px"><p></p>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+      <div class="circle">
+        <a href="https://zainiba.github.io/HoneyMart/" target="_blank"><img src="images/Honeyhome.png" alt="HoneyMart" class="images">
+          <div class="overlay">
+            <div class="text">
+              <h4>HoneyMart</h4>
+              <p>Net Art</p>
+            </div>
           </div>
+        </a>
+      </div>
 
-          <div class="circle">
-            <a href="index.html"><img src="images/neck1.jpg" alt="Necklace" class="images">
-              <div class="overlay">
-                <div class="text">
-                  <h4>Tessallation</h4>
-                  <p>Pierced Bronze Necklace</p>
-                </div>
-              </div>
-            </a>
+      <div class="circle">
+        <a href="index.html"><img src="images/neck1.jpg" alt="Necklace" class="images">
+          <a data-toggle="modal" href="#modal4">
+          <div class="overlay">
+            <div class="text">
+              <h4>Tessallation</h4>
+              <p>Pierced Bronze Necklace</p>
+            </div>
           </div>
+        </a>
+      </div>
 
-          <div class="circle">
-            <a href="https://zainiba.github.io/ontheWeb/"  target="_blank"><img src="images/otw.png" alt="On The Web" class="images">
-              <div class="overlay">
-                <div class="text">
-                  <h4>On The Web</h4>
-                  <p>Net Art</p>
-                </div>
-              </div>
-            </a>
+      <!-- Modal -->
+      <div class="modal fade" id="modal4" role="dialog">
+        <div class="modal-dialog ">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h5 class="modal-title" style="text-align:right">Tessallation<br>Pierced Bronze Necklace<br> 2020 </h5>
+
+            </div>
+            <div class="modal-body">
+                    <img src="images/neck1.jpg" alt="Pop" width="500px"><p></p>
+                    <img src="images/neck2.jpg" alt="Pop" width="500px"><p></p>
+                    <img src="images/neck3.jpg" alt="Pop" width="500px"><p></p>
+                    <img src="images/neck4.gif" alt="Pop" width="500px"><p></p>
+                    <img src="images/neck5.gif" alt="Pop" width="500px"><p></p>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
           </div>
+        </div>
+      </div>
 
-          <div class="circle">
-            <a href="index.html"><img src="images/honey1.jpg" alt="Honeycomb" class="images">
-              <div class="overlay">
-                <div class="text">
-                  <h4>Honeycomb</h4>
-                  <p>Sheetmetal Welding</p>
-                </div>
-              </div>
-            </a>
+
+      <div class="circle">
+        <a href="https://zainiba.github.io/ontheWeb/" target="_blank"><img src="images/otw.png" alt="On The Web" class="images">
+          <div class="overlay">
+            <div class="text">
+              <h4>On The Web</h4>
+              <p>Net Art</p>
+            </div>
           </div>
+        </a>
+      </div>
 
-
-          <div class="circle">
-            <a href="index.html"><img src="images/drwn.PNG" alt="Drowning" class="images">
-              <div class="overlay">
-                <div class="text">
-                  <h4>Drowning</h4>
-                  <p>Animation</p>
-                </div>
-              </div>
-            </a>
+      <div class="circle">
+        <a href="index.html"><img src="images/honey1.jpg" alt="Honeycomb" class="images">
+          <a data-toggle="modal" href="#modal5">
+          <div class="overlay">
+            <div class="text">
+              <h4>Honeycomb</h4>
+              <p>Sheetmetal Welding</p>
+            </div>
           </div>
+        </a>
+      </div>
 
-          <div class="circle">
+      <!-- Modal -->
+      <div class="modal fade" id="modal5" role="dialog">
+        <div class="modal-dialog ">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h5 class="modal-title" style="text-align:right">Honeycomb<br>Sheetmetal Welding<br>2019 </h5>
+
+            </div>
+            <div class="modal-body">
+                    <img src="images/honey1.jpg" alt="Honeycomb" width="500px"><p></p>
+                    <img src="images/honey2.jpg" alt="Honeycomb" width="500px"><p></p>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- <div class="circle">
+        <a href="index.html"><img src="images/drwn.PNG" alt="Drowning" class="images">
+          <div class="overlay">
+            <div class="text">
+              <h4>Drowning</h4>
+              <p>Animation</p>
+            </div>
+          </div>
+        </a>
+      </div> -->
+
+      <!-- <div class="circle">
             <a href="index.html"><img src="images/rr.PNG" alt="Reflected Reality" class="images">
               <div class="overlay">
                 <div class="text">
@@ -218,43 +379,83 @@
                 </div>
               </div>
             </a>
-          </div>
+          </div> -->
 
-          <div class="circle">
-            <a href="index.html"><img src="images/lips.jpg" alt="Lips" class="images">
-              <div class="overlay">
-                <div class="text">
-                  <h4>Lips</h4>
-                  <p>Bent Wood Lamination</p>
-                </div>
-              </div>
-            </a>
+      <div class="circle">
+        <a href="fab.html"><img src="images/lips.jpg" alt="Lips" class="images">
+          <a data-toggle="modal" href="#modal7">
+          <div class="overlay">
+            <div class="text">
+              <h4>Lips</h4>
+              <p>Bent Wood Lamination</p>
+            </div>
           </div>
+        </a>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="modal7" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h5 class="modal-title" style="text-align:right">Lips<br>Bentwood Lamination<br>2019</h5>
+
+            </div>
+            <div class="modal-body">
+                    <img src="images/lips.jpg" alt="Lips" width="500px"><p></p>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
-          <div class="circle">
-            <a href="index.html"> <img src="images/bike.JPG" alt="Lasercut Bicycle" class="images">
-              <div class="overlay">
-                <div class="text">
-                  <h4>Bicycle</h4>
-                  <p>Lasercut</p>
-                </div>
-              </div>
-            </a>
+      <div class="circle">
+        <img src="images/bike.JPG" alt="Lasercut Bicycle" class="images">
+        <a data-toggle="modal" href="#modal6">
+          <div class="overlay">
+            <div class="text">
+              <h4>Bicycle</h4>
+              <p>Lasercut</p>
+            </div>
           </div>
+        </a>
 
-          <div class="circle">
-            <a href="https://zainiba.github.io/feelingIncolor/" target="_blank"> <img src="images/fic.PNG" alt="Feeling In Color" class="images">
-              <div class="overlay">
-                <div class="text">
-                  <h4>Feeling in Color</h4>
-                  <p>Net Art</p>
-                </div>
-              </div>
-            </a>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="modal6" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h5 class="modal-title" style="text-align:right">Bicycle<br>Lasercut Birchwood<br>2018</h5>
+
+            </div>
+            <div class="modal-body">
+                    <img src="images/bike.JPG" alt="Bicycle" width="500px"><p></p>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
           </div>
+        </div>
+      </div>
 
         </div>
+
+      </div>
+
+
     </div>
 
   </div>
